@@ -2294,9 +2294,9 @@ tr.summary-details-excluded { font-style:italic; }
 	width:25%;
 }
 .sub-banners{
-	margin: 0 -2%;
-	margin-bottom:4%;
-	margin-top: -2%px;
+	margin: 0 -1%;
+	margin-bottom:1%;
+	margin-top: -2%;
 }
 .sub-banners .banner{
 	width:50%;
