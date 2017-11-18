@@ -2250,9 +2250,10 @@ tr.summary-details-excluded { font-style:italic; }
 #contactForm .fieldset{
 	margin-top:0px;
 }
-.googlemaps iframe{
+.googlemaps #map{
 	width:90%;
 	float:right;
+	min-height:350px;
 }
 #contactForm .form-list .fields .field:nth-child(2){
 	float:right;

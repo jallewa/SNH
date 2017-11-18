@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Snh_Main>
+            <version>0.0.1</version>
+        </Snh_Main>
+    </modules>
+    <global>
+        <helpers>
+            <snh_main>
+                <class>Snh_Main_Helper</class>
+            </snh_main>
+        </helpers>
+    </global>
+    <default>
+        <snhmain_props>
+            <snhmain_config>
+                <google_apikey>AIzaSyD4GnCYmwOffOqZts8KDJbo5cBRNRFLyuE</google_apikey>
+            </snhmain_config>
+        </snhmain_props>
+    </default>
+</config>

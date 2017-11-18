@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+		<snhmain translate="label" module="snh_main">
+			<label>SNH Main</label>
+			<sort_order>205</sort_order>
+		</snhmain>
+    </tabs>
+    <sections>
+        <snhmain_props translate="label" module="snh_main">
+            <label>Einstellungen</label>
+            <tab>snhmain</tab>
+            <sort_order>130</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <snhmain_config translate="label">
+                    <label>General Configuration</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <google_apikey>
+                            <label>Google API-Key</label>
+                            <comment>Für GoogleMaps</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </google_apikey>
+                    </fields>
+                </snhmain_config>
+            </groups>
+        </snhmain_props>
+    </sections>
+</config>

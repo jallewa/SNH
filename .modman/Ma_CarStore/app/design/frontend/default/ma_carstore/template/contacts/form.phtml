@@ -60,12 +60,23 @@
             </li>
         </ul>
         <div class="googlemaps">
-            <iframe
-                height="450"
-                frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD4GnCYmwOffOqZts8KDJbo5cBRNRFLyuE
-                    &q=Space+Needle,Seattle+WA" allowfullscreen>
-            </iframe>
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var uluru = {lat: -25.363, lng: 131.044};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                    });
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo Mage::getStoreConfig('snhmain_props/snhmain_config/google_apikey') ?>&callback=initMap"
+                async defer>
+            </script>
         </div>
     </div>
     
