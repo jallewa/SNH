@@ -11,6 +11,8 @@
         </reference>
         <reference name="ma_banner7">
             <block type="banner7/banner7" before="-" name="banner7" template="magentothem/banner7/banner7.phtml" />
+            <block type="core/template" name="sub-info-banners" template="magentothem/banner7/infobanners.phtml" />
+           	
         </reference>
     </cms_index_index>
 </layout> 

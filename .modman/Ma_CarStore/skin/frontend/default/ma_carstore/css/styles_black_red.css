@@ -2292,3 +2292,19 @@ tr.summary-details-excluded { font-style:italic; }
     margin-bottom: 15px;
     margin-top: 5px;
 }
+.sub-banners{
+	margin: 0 -10px;
+	margin-bottom:20px;
+	margin-top: -10px;
+}
+.sub-banners .banner{
+	width:50%;
+	float:left;
+}
+.sub-banners .banner a{
+	padding: 10px;
+    display: block;
+}
+.sub-banners .banner img{
+	width: 100%;
+}
