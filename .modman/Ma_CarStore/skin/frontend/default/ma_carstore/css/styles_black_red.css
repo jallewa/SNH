@@ -2016,7 +2016,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Footer Static =========================================================== */
 .ma-footer-static-container{ width:100%; float:left; text-align:left; }
-.ma-footer-static{  margin:10px auto 0; padding:20px 30px; background:#fff; border:1px solid #d7d7d7; border-bottom:0; min-height:182px; }
+.ma-footer-static{  margin:10px auto 0; padding:20px 30px; background:#fff; border:1px solid #d7d7d7; border-bottom:0; }
 .ma-footer-static .footer-block{  }
 .ma-footer-static .footer-block .title, .ma-footer-static .block-subscribe .block-title{ width:100%; background:url(../images/bg-title-footer-static.png) bottom left no-repeat; padding:0 0 2px; }
 .ma-footer-static .footer-block .title h2, .ma-footer-static .block-subscribe .block-title strong span{ font-size:15px; text-transform:uppercase; font-family:Metrophobic; }
@@ -2234,4 +2234,19 @@ tr.summary-details-excluded { font-style:italic; }
 @media (max-width: 360px) {
     .ma-banner7-container .nivo-directionNav { display: none !important;}
     
+}
+#contactForm .form-list{
+	max-width: 500px;
+}
+#contactForm .form-list .fields .field:nth-child(2){
+	float:right;
+}
+#contactForm #comment{
+	width:100%;
+}
+#contactForm .form-list input.input-text, #contactForm .form-list .input-box{
+	width:100%;
+}
+#contactForm .fieldset .legend{
+	display:none;
 }
