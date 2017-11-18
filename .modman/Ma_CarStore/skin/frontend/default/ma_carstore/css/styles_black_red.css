@@ -2240,7 +2240,19 @@ tr.summary-details-excluded { font-style:italic; }
     
 }
 #contactForm .form-list{
-	max-width: 500px;
+	width: 50%;
+	float: left;
+}
+.googlemaps{
+	width:50%;
+	display: inline-block;
+}
+#contactForm .fieldset{
+	margin-top:0px;
+}
+.googlemaps iframe{
+	width:90%;
+	float:right;
 }
 #contactForm .form-list .fields .field:nth-child(2){
 	float:right;
