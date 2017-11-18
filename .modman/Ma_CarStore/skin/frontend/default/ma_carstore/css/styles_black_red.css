@@ -2290,19 +2290,20 @@ tr.summary-details-excluded { font-style:italic; }
 	float:left;
 	margin-right: 20px;
     margin-bottom: 15px;
-    margin-top: 5px;
+	margin-top: 5px;
+	width:25%;
 }
 .sub-banners{
-	margin: 0 -10px;
-	margin-bottom:20px;
-	margin-top: -10px;
+	margin: 0 -2%;
+	margin-bottom:4%;
+	margin-top: -2%px;
 }
 .sub-banners .banner{
 	width:50%;
 	float:left;
 }
 .sub-banners .banner a{
-	padding: 10px;
+	padding: 2%;
     display: block;
 }
 .sub-banners .banner img{
