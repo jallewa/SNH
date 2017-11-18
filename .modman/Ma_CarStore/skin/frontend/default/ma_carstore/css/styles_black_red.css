@@ -2254,3 +2254,19 @@ tr.summary-details-excluded { font-style:italic; }
 #contactForm .fieldset .legend{
 	display:none;
 }
+.imprint-table{
+	margin: 15px;
+}
+.imprint-table td{
+	padding: 5px 0;
+}
+.imprint-table tr > td:first-child{
+	font-weight:bold;
+}
+.col-md-6{
+	width:50%;
+	float:left;
+	padding:0px 15px;
+	position: relative;
+    box-sizing: border-box;
+}
