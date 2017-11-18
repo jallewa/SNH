@@ -680,12 +680,16 @@ tr.summary-details-excluded { font-style:italic; }
 /********** < Navigation */
 
 #nav {
-    border-bottom:5px solid #c41c1c;
+	border-bottom:5px solid #c41c1c;
+	background:#000 !important;
 }
 #nav li.active a,
 #nav li.over a,
 #nav a:hover {
     background:#c41c1c;
+}
+#nav li a{
+	color:#fff;
 }
 #nav ul,
 #nav div {
