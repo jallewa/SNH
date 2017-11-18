@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<carstore>
+    <blocks>
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                    <![CDATA[<div class="footer-block latest-new span3">
+<div class="title">
+<h2>Latest News</h2>
+</div>
+<div class="content">
+<ul>
+<li><a href="{{store direct_url="contacts"}}">Careers</a></li>
+<li><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+<li><a href="{{store direct_url="contacts"}}">Store Locations</a></li>
+<li><a href="{{store direct_url="contacts"}}">Online Store</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-block shipping span3">
+<div class="title">
+<h2>Shipping Info</h2>
+</div>
+<div class="content">
+<ul>
+<li><a href="{{store direct_url="sales/guest/form"}}">Returns</a></li>
+<li><a href="{{store direct_url="customer-service"}}">Customer Serivce</a></li>
+<li><a href="{{store direct_url="contacts"}}">Gift Cards</a></li>
+<li><a href="{{store direct_url="customer-service"}}">Extended Service Plan</a></li>
+<li><a href="{{store direct_url="sales/guest/form"}}">Orders &amp; Returns</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-block support-center span3">
+<div class="title">
+<h2>Support Center</h2>
+</div>
+<div class="content">
+<ul>
+<li><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+<li><a href="{{store direct_url="catalogsearch/term/popular"}}">Search Terms</a></li>
+<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+<li><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-block paypal span3">
+<div class="title">
+<h2>we are accept</h2>
+</div>
+<div class="content">
+<ul>
+<li><a href="#"><img src="{{media url="wysiwyg/paypal.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/visa-master.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/master-cart.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/amex.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/visa.png"}}" alt="" /></a></li>
+</ul>
+</div>
+{{block type="newsletter/subscribe" name="left.newsletter" template="newsletter/subscribe.phtml"}}</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+        <block>
+            <title>Left Static</title>
+            <identifier>left_static</identifier>
+            <content>
+                      <![CDATA[<p><a href="#"><img src="{{media url="wysiwyg/left.png"}}" alt="" /></a></p>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+
+    </blocks>
+
+</carstore>
+

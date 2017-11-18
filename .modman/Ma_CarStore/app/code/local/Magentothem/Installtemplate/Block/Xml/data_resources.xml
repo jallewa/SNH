@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<carstore>
+    <resources>
+        <resource>
+            <title>Carstore Home page</title>
+            <identifier>carstore_home</identifier>
+            <root_template>three_columns</root_template>
+            <content><![CDATA[<p>{{block type="featuredproductslider/featuredproductslider" name="featuredproductslider" template="magentothem/featuredproductslider/featuredproductslider.phtml"}}{{block type="newproduct/newproduct" name="newproduct" template="magentothem/newproduct/newproduct.phtml"}}</p>]]></content>
+            <sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+</carstore>

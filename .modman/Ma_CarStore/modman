@@ -1,0 +1,38 @@
+app\code\local\Magentothem\Ajaxcartsuper\ app\code\local\Magentothem\Ajaxcartsuper\ 
+app\code\local\Magentothem\Banner7\ app\code\local\Magentothem\Banner7\
+app\code\local\Magentothem\Bestsellerproduct\ app\code\local\Magentothem\Bestsellerproduct\
+app\code\local\Magentothem\Featuredproductslider\ app\code\local\Magentothem\Featuredproductslider\
+app\code\local\Magentothem\Installtemplate\ app\code\local\Magentothem\Installtemplate\
+app\code\local\Magentothem\Layerednavigationajax\ app\code\local\Magentothem\Layerednavigationajax\
+app\code\local\Magentothem\Newproduct\ app\code\local\Magentothem\Newproduct\
+app\code\local\Magentothem\Prozoom\ app\code\local\Magentothem\Prozoom\
+app\code\local\Magentothem\Themeoptions\ app\code\local\Magentothem\Themeoptions\
+app\code\local\Magentothem\Verticalmenu\ app\code\local\Magentothem\Verticalmenu\
+
+app\design\adminhtml\default\default\layout\banner7.xml app\design\adminhtml\default\default\layout\banner7.xml
+app\design\adminhtml\default\default\layout\brandslider.xml app\design\adminhtml\default\default\layout\brandslider.xml
+app\design\adminhtml\default\default\layout\custommenu.xml app\design\adminhtml\default\default\layout\custommenu.xml
+app\design\adminhtml\default\default\layout\installtemplate.xml     app\design\adminhtml\default\default\layout\installtemplate.xml
+app\design\adminhtml\default\default\layout\themeoptions.xml    app\design\adminhtml\default\default\layout\themeoptions.xml
+app\design\frontend\default\ma_carstore\    app\design\frontend\default\ma_carstore\
+
+app\etc\modules\Magentothem_Ajaxcartsuper.xml   app\etc\modules\Magentothem_Ajaxcartsuper.xml
+app\etc\modules\Magentothem_Banner7.xml     app\etc\modules\Magentothem_Banner7.xml
+app\etc\modules\Magentothem_Bestsellerproduct.xml   app\etc\modules\Magentothem_Bestsellerproduct.xml
+app\etc\modules\Magentothem_Featuredproductslider.xml   app\etc\modules\Magentothem_Featuredproductslider.xml
+app\etc\modules\Magentothem_Installtemplate.xml app\etc\modules\Magentothem_Installtemplate.xml
+app\etc\modules\Magentothem_Layerednavigationajax.xml   app\etc\modules\Magentothem_Layerednavigationajax.xml
+app\etc\modules\Magentothem_Newproduct.xml  app\etc\modules\Magentothem_Newproduct.xml
+app\etc\modules\Magentothem_Prozoom.xml app\etc\modules\Magentothem_Prozoom.xml
+app\etc\modules\Magentothem_Themeoptions.xml    app\etc\modules\Magentothem_Themeoptions.xml
+app\etc\modules\Magentothem_Verticalmenu.xml app\etc\modules\Magentothem_Verticalmenu.xml
+
+js\bootstrap\ js\bootstrap\
+js\magentothem\ js\magentothem\
+
+media\magentothem\ \media\magentothem\
+media\theme\ media\theme\
+media\wysiwyg\ media\wysiwyg\
+
+skin\adminhtml\default\default\magentothem\ skin\adminhtml\default\default\magentothem\
+skin\frontend\default\ma_carstore\  skin\frontend\default\ma_carstore\
