@@ -12,6 +12,24 @@
 /downloader
 /var
 /js
+api.php
+cron.php
+/errors
+cron.sh
+/dev
+.htacces*
+/lib
+index*
+install*
+get.php
+/media
+LICENSE*
+/shell
+/includes
+/php.*
+/RELEASE*
+favicon.ico
+mage
 nbproject/
 node_modules/
 
