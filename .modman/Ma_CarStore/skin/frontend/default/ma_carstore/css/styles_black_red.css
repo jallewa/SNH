@@ -2283,3 +2283,12 @@ tr.summary-details-excluded { font-style:italic; }
 	position: relative;
     box-sizing: border-box;
 }
+.homepage-text{
+	padding:10px;
+}
+.homepage-text img{
+	float:left;
+	margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
